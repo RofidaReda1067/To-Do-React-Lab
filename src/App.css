@@ -1,13 +1,31 @@
-.App {
-  text-align: center;
+.app {
+  background: #3d9eb9;
+  height: 100vh;
+  padding: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.todo-list {
+  background: #82918f;
+  border-radius: 6px;
+  max-width: 450px;
+  padding: 7px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
+.todo {
+  align-items: center;
+  background: rgb(43, 137, 129);
+  border-radius: 4px;
+  box-shadow: 1px 1px 1px rgba(140, 123, 123, 0.15);
+  display: flex;
+  font-size: 14px;
+  justify-content: space-between;
+  margin-bottom: 6px ;
+padding: 4px 10px;
+}
+
+
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +53,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
